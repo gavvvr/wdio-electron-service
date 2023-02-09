@@ -1,6 +1,6 @@
 {
   "extends": "./tsconfig.base.json",
-  "exclude": ["node_modules", "dist", "example", "test"],
+  "exclude": ["node_modules", "dist", "example", "packages/wdio-electron-service/test"],
   "compilerOptions": {
     "module": "ESNext",
     "outDir": "dist",
