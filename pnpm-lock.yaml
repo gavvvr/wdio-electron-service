@@ -36,7 +36,7 @@ devDependencies:
     version: 8.55.0
   '@testing-library/webdriverio':
     specifier: ^3.2.1
-    version: 3.2.1(webdriverio@8.26.0)
+    version: 3.2.1(webdriverio@8.26.1)
   '@types/chromedriver':
     specifier: ^81.0.5
     version: 81.0.5
@@ -63,10 +63,10 @@ devDependencies:
     version: 1.0.4(vitest@1.0.4)
   '@wdio/cli':
     specifier: ^8.23.3
-    version: 8.26.0(typescript@5.3.3)
+    version: 8.26.1(typescript@5.3.3)
   '@wdio/globals':
     specifier: ^8.23.3
-    version: 8.26.0(typescript@5.3.3)
+    version: 8.26.1(typescript@5.3.3)
   '@wdio/types':
     specifier: ^8.20.0
     version: 8.24.12
@@ -84,7 +84,7 @@ devDependencies:
     version: 9.1.0(eslint@8.55.0)
   eslint-plugin-vitest:
     specifier: ^0.3.10
-    version: 0.3.12(@typescript-eslint/eslint-plugin@6.13.2)(eslint@8.55.0)(typescript@5.3.3)(vitest@1.0.4)
+    version: 0.3.13(@typescript-eslint/eslint-plugin@6.13.2)(eslint@8.55.0)(typescript@5.3.3)(vitest@1.0.4)
   eslint-plugin-wdio:
     specifier: ^8.20.0
     version: 8.24.12
@@ -96,7 +96,7 @@ devDependencies:
     version: 4.7.2(typescript@5.3.3)
   globals:
     specifier: ^13.23.0
-    version: 13.23.0
+    version: 13.24.0
   husky:
     specifier: ^8.0.3
     version: 8.0.3
@@ -129,7 +129,7 @@ devDependencies:
     version: 1.0.4(@types/node@20.10.4)(jsdom@23.0.1)
   webdriverio:
     specifier: ^8.23.3
-    version: 8.26.0(typescript@5.3.3)
+    version: 8.26.1(typescript@5.3.3)
 
 packages:
 
@@ -435,7 +435,7 @@ packages:
       ajv: 6.12.6
       debug: 4.3.4
       espree: 9.6.1
-      globals: 13.23.0
+      globals: 13.24.0
       ignore: 5.3.0
       import-fresh: 3.3.0
       js-yaml: 4.1.0
@@ -895,7 +895,7 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/webdriverio@3.2.1(webdriverio@8.26.0):
+  /@testing-library/webdriverio@3.2.1(webdriverio@8.26.1):
     resolution: {integrity: sha512-mgMyCiwW+4zCidmlab9lwcO+UBz+PzlWnz9idDQ4ZS1SIHVSfJwvRLMWi+s3vNGFmc8duQxTiUHf1alW/Z48Og==}
     peerDependencies:
       webdriverio: '*'
@@ -903,7 +903,7 @@ packages:
       '@babel/runtime': 7.23.5
       '@testing-library/dom': 8.20.1
       simmerjs: 0.5.6
-      webdriverio: 8.26.0(typescript@5.3.3)
+      webdriverio: 8.26.1(typescript@5.3.3)
     dev: true
 
   /@tootallnate/quickjs-emscripten@0.23.0:
@@ -1229,14 +1229,14 @@ packages:
       pretty-format: 29.7.0
     dev: true
 
-  /@wdio/cli@8.26.0(typescript@5.3.3):
-    resolution: {integrity: sha512-SCT4e6k+/bXE2j5H9v+pBqIfXVwaJ5pl5d/glCE+L8eriFGBuOAWqPGlp5K6tXzzUEgR4nPAk8Z6IjA/3xImtA==}
+  /@wdio/cli@8.26.1(typescript@5.3.3):
+    resolution: {integrity: sha512-KZ3MVyH4N6j0Gdy6RL6Wv0uf5OeggFe0WRpOwZFjjQpYVEV8IEuB4kDcw8ld7f3kp9YYQGabMAkGrO6tnz5T8w==}
     engines: {node: ^16.13 || >=18}
     hasBin: true
     dependencies:
       '@types/node': 20.10.4
       '@wdio/config': 8.24.12
-      '@wdio/globals': 8.26.0(typescript@5.3.3)
+      '@wdio/globals': 8.26.1(typescript@5.3.3)
       '@wdio/logger': 8.24.12
       '@wdio/protocols': 8.24.12
       '@wdio/types': 8.24.12
@@ -1255,7 +1255,7 @@ packages:
       lodash.union: 4.6.0
       read-pkg-up: 10.1.0
       recursive-readdir: 2.2.3
-      webdriverio: 8.26.0(typescript@5.3.3)
+      webdriverio: 8.26.1(typescript@5.3.3)
       yargs: 17.7.2
     transitivePeerDependencies:
       - bufferutil
@@ -1281,12 +1281,12 @@ packages:
       - supports-color
     dev: true
 
-  /@wdio/globals@8.26.0(typescript@5.3.3):
-    resolution: {integrity: sha512-POZoetQZ2Z+23GYqMLj0N7CguPGs03d/6gYJpfoGja6DXj/Sn8GRtyHuRYwy+ovFatDXDhro/qo6YDWVw+0YYg==}
+  /@wdio/globals@8.26.1(typescript@5.3.3):
+    resolution: {integrity: sha512-hNJ4mvSHzvAzDcBisaNgwRzJ2sLN4B/fno6VZcskgfYlg7UyWpVHigyxaddP2e1OeoxLL9pc2hKCtwgDr4UozA==}
     engines: {node: ^16.13 || >=18}
     optionalDependencies:
       expect-webdriverio: 4.7.2(typescript@5.3.3)
-      webdriverio: 8.26.0(typescript@5.3.3)
+      webdriverio: 8.26.1(typescript@5.3.3)
     transitivePeerDependencies:
       - bufferutil
       - devtools
@@ -2518,8 +2518,8 @@ packages:
       eslint: 8.55.0
     dev: true
 
-  /eslint-plugin-vitest@0.3.12(@typescript-eslint/eslint-plugin@6.13.2)(eslint@8.55.0)(typescript@5.3.3)(vitest@1.0.4):
-    resolution: {integrity: sha512-Zi5sKbZUrJXE11MKCS6Wg108RAoPC7/lT9mH59LKuHO6K/b9s6S+SHFP4MCIxkpGnhSmYOhKZicHESaXywIveA==}
+  /eslint-plugin-vitest@0.3.13(@typescript-eslint/eslint-plugin@6.13.2)(eslint@8.55.0)(typescript@5.3.3)(vitest@1.0.4):
+    resolution: {integrity: sha512-k3itP/Nn/Y8s1TAVll8c3g/L3UPSp3FqE1TKULa8GJPkFZhq/K2O6F64ENRhLOmcOSSWRkJK2ZA8g8RH1w7C1g==}
     engines: {node: ^18.0.0 || >= 20.0.0}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': '*'
@@ -2586,7 +2586,7 @@ packages:
       file-entry-cache: 6.0.1
       find-up: 5.0.0
       glob-parent: 6.0.2
-      globals: 13.23.0
+      globals: 13.24.0
       graphemer: 1.4.0
       ignore: 5.3.0
       imurmurhash: 0.1.4
@@ -2701,9 +2701,9 @@ packages:
       jest-matcher-utils: 29.7.0
       lodash.isequal: 4.5.0
     optionalDependencies:
-      '@wdio/globals': 8.26.0(typescript@5.3.3)
+      '@wdio/globals': 8.26.1(typescript@5.3.3)
       '@wdio/logger': 8.24.12
-      webdriverio: 8.26.0(typescript@5.3.3)
+      webdriverio: 8.26.1(typescript@5.3.3)
     transitivePeerDependencies:
       - bufferutil
       - devtools
@@ -3113,8 +3113,8 @@ packages:
       ini: 2.0.0
     dev: true
 
-  /globals@13.23.0:
-    resolution: {integrity: sha512-XAmF0RjlrjY23MA51q3HltdlGxUpXPvg0GioKiD9X6HD28iMjo2dKC8Vqwm7lne4GNr78+RHTfliktR6ZH09wA==}
+  /globals@13.24.0:
+    resolution: {integrity: sha512-AhO5QUcj8llrbG09iWhPU2B204J1xnPeL8kQmVorSsy+Sjj1sk8gIyh6cUocGmH4L0UuhAJy+hJMRA4mgA4mFQ==}
     engines: {node: '>=8'}
     dependencies:
       type-fest: 0.20.2
@@ -6254,8 +6254,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /webdriverio@8.26.0(typescript@5.3.3):
-    resolution: {integrity: sha512-4HfYTB1khiNaCtJGWnFmm/T5O1KAEL9srpWvIjw2XOkTd53rJ8pKTEU0lr/YtAunOELqcTZeTxb7Y0zfLsEEww==}
+  /webdriverio@8.26.1(typescript@5.3.3):
+    resolution: {integrity: sha512-KnM92UPqk7FmPJpZf3krHrqn0ydjSdyAMn+i4uENxLBqm1OyQ12gSKtIatt8FOP9/C+UrFXATSOd+jRkU2xMkw==}
     engines: {node: ^16.13 || >=18}
     peerDependencies:
       devtools: ^8.14.0
